@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_history"
+        android:icon="@drawable/baseline_history_toggle_off_24"
+        android:title="@string/History"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_article"
+        android:icon="@drawable/baseline_article_24"
+        android:title="@string/Article"
+        app:showAsAction="ifRoom"/>
+</menu>
